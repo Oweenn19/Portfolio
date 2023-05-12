@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Claudiu Hoza Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<a class="up" href="#top">
+    <i class="fa-solid fa-arrow-up"></i>
+</a> 
+<nav class="navbar">
+    <a class="logo"> <img src="img/lg.gif" width="150"> </a> 
+    <div class="nav-links">
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#info">About me</a></li>
+            <li><a href="#projet">Project</a></li>
+            <li><a href="#contact">Social</a></li>
+        </ul>
+    </div>
+    <img src="img/menu-btn.png" alt="Menu" class="menu">
+</nav>
+
+<div class="intro" id="top" >
+    <h1 class="salut" style="color: rgb(64, 125, 236)";>Hi, my name is Claudiu Hoza.</h1>
+    <h2 class="nom">I am currently 19 years old.</h2>
+    <h2 class="info">I'm a Student in IT services for organisations at Robert Schuman in Dugny (France).</h2>
+</div>
+
+
+<div class="text2" id="info">
+    <h1 class="title2" style="color: rgb(64, 125, 236)";>I will present myself quickly  </h1>
+    <h2 class="presentation"> So, my name is Claudiu Hoza, I from Romania but I live in France. </h2>
+    <h2 class="hobbies"> I like video games (Fps,Adventure,Car racing), IT and Technology. </h2>
+    <h2 class="code"> I like cybersecurity and also coding, I am learning how to code in PHP, C++ and other coding language </h2>
+</div>
+
+<div class="text3" id="projet">
+    <h1 class="title3">Some of my project.  </h1>
+    <a href="https://www.google.com/">Click here</a>
+</div>
+
+
+<div class="text1" id="contact">
+    <h1 class="title1" style="color: rgb(64, 125, 236)";>To contact me you can use </h1>
+    <h2 class="gmail" > Gmail: claudiuhozapro@gmail.com <i class="fa-sharp fa-regular fa-envelope"></i> </h2>
+    <h2 class="insta"> Instagram: claudiu.ho <a href="https://www.instagram.com/claudiu.ho/"> <i class="fa-brands fa-instagram"> </i> </a> </h2>
+    <h2 class="linkedin"> Linkedin: Claudiu Hoza <a href="https://www.linkedin.com/in/claudiu-hoza-38060923b/"> <i class="fa-brands fa-linkedin"></i> </a> </h2>
+    <h2 class="discord"> Discord: Owenn#3783 <i class="fa-brands fa-discord"></i> </h2>
+    <h2 class="github" > Github: Oweennn19  <a href="https://github.com/Oweenn19"> <i class="fa-brands fa-github"> </i> </a> </h2>
+    
+
+</body>
+
+<script>
+    const menu = document.querySelector(".menu")
+    const navLinks = document.querySelector(".nav-links")
+
+    menu.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
