@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Claudiu Hoza Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<a class="up" href="#top">
+    <i class="fa-solid fa-arrow-up"></i>
+</a> 
+<nav class="navbar">
+    <a class="logo"> <img src="img/lg.gif" width="150"> </a> 
+    <div class="nav-links">
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#info">À propos de moi</a></li>
+            <li><a href="#comp">Compétences</a></li>
+            <li><a href="#Veille">Veille</a></li>
+            <li><a href="#Projet">Projet</a></li>
+            <li><a href="#doc">Documents</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <img src="img/menu-btn.png" alt="Menu" class="menu">
+</nav>
+
+<div class="intro" id="top" >
+    <h1 class="salut" style="color: rgb(64, 125, 236)";>Bonjour, je m'appelle Claudiu Hoza.</h1>
+    <h2 class="nom">J'ai actuellement 20 ans.</h2>
+    <h2 class="info">Je suis étudiant en BTS Services informatiques aux organisations option <br>solutions d'infrastructure, systèmes et réseaux au Lycée Robert Schuman Dugny .</h2>
+</div>
+
+
+<div class="text2" id="info">
+    <h1 class="title2" style="color: rgb(64, 125, 236)";>Je me présente rapidement </h1>
+    <h2 class="presentation"> Je m'appelle Claudiu Hoza, je suis originaire de Roumanie mais je vie en France </h2>
+    <h2 class="hobbies"> J'aime les jeux video (Fps, Adventure, course de voiture),j'aime aussi l'informatique et la technologie. </h2>
+    <h2 class="code"> J'aime la cybersécurité et aussi le codage, j'apprends à coder en PHP, C++ et d'autres langages. </h2>
+</div>
+
+
+<div class="text4" id="comp" >
+    <h1 class="title4" style="color: rgb(64, 125, 236)";>Mes compétences.</h1>
+    <h2 class="competences"> Je possède des compétences en informatique comme:</h2>
+    <h2 style="color: rgb(64, 125, 236)";>Proteus, Arduino IDE, Microsoft Office, GLPI, Ticketing, AD, DHCP, CISCO. </h2>
+    <h2 class="competences2"> Je possède aussi des compétences dans le développement comme:</h2>
+    <h2 style="color: rgb(64, 125, 236)";>Python, Php, HTML, SQL, C++ </h2>
+</div>
+
+<div class="text5" id="Veille">
+    <h1 class="VEILLE" style="color: rgb(64, 125, 236);">Suivi de veille technologique.  </h1>
+    <h2>Pour ma veille technologique j'ai utilisé Feedly <br>
+    La veille technologique en cybersécurité consiste à surveiller de manière constante et proactive les évolutions, <br> les menaces et les tendances dans le domaine de la sécurité informatique. <br> L'intérêt de cette pratique est multiple.
+    </h2>
+    <h2>Exemple: <br>Protection contre les menaces émergentes <br> Amélioration de la posture de sécurité <br> Protection des données sensibles <br> Préparation à la gestion des incidents <br></h2>
+    <a href="img/veille.png" target="_blank"><button class="veille" type="button">Afficher la veille technologique </button></a>
+</div>
+
+<div class="text6" id="Projet">
+    <h1 class="PROJET" style="color: rgb(64, 125, 236);">Projet.  </h1>
+    <h2> </h2>
+</div>
+
+<div class="text3" id="doc">
+    <h1 class="CV">CV.  </h1>
+    <a href="img/cv.png" target="_blank"><button class="cv" type="button">Afficher </button></a>
+
+    <h1 class="FICHE">Fiche de synthèse.  </h1>
+    <a href="img/fiche.png" target="_blank"><button class="fiche" type="button">Afficher ma fiche de synthèse </button></a>
+</div>
+
+
+
+<div class="text1" id="contact">
+    <h1 class="title1" style="color: rgb(64, 125, 236)";>Pour me contacter </h1>
+    <h2 class="gmail" > Gmail: claudiuhozapro@gmail.com <i class="fa-sharp fa-regular fa-envelope"></i> </h2>
+    <h2 class="linkedin"> Linkedin: Claudiu Hoza <a href="https://www.linkedin.com/in/claudiu-hoza-38060923b/"> <i class="fa-brands fa-linkedin"></i> </a> </h2>
+    <h2 class="discord"> Discord: Owenn#3783 <i class="fa-brands fa-discord"></i> </h2>
+    <h2 class="github" > Github: Oweennn19  <a href="https://github.com/Oweenn19"> <i class="fa-brands fa-github"> </i> </a> </h2>
+    
+</div>
+
+
+</body>
+
+<script>
+    const menu = document.querySelector(".menu")
+    const navLinks = document.querySelector(".nav-links")
+
+    menu.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
